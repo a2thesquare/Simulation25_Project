@@ -21,7 +21,7 @@ The choices of distributions are up to you. You are welcomed to try different di
 (3p) What will the system throughput and average response time of a job be if a faster CPU is used and a second fast disk is added? And, you use the better load balancing strategies out of two you propose in the first question?
 (5pt) If you can answer all the above questions with different number of N and plot them in the following style:
 
-<img width="536" height="214" alt="image" src="https://github.com/user-attachments/assets/b8da1062-c220-4474-8d83-435dbd35ce7c" />
+<img width="536" height="214" alt="image" src="https://github.com/user-attachments/assets/b8da1062-c220-4474-8d83-435dbd35ce7c"/>
 
 ## Open Queuing network simulation (8 pt)
 The second part of the project is to make an open-queuing network simulator, where the jobs arrive from the outside following Poisson processes with the rate of lambda. The system is shown as the following figure:
