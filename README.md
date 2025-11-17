@@ -23,7 +23,7 @@ The choices of distributions are up to you. You are welcomed to try different di
 
 <img width="536" height="214" alt="image" src="https://github.com/user-attachments/assets/b8da1062-c220-4474-8d83-435dbd35ce7c"/>
 
-
+\
 ## Open Queuing network simulation (8 pt)
 The second part of the project is to make an open-queuing network simulator, where the jobs arrive from the outside following Poisson processes with the rate of lambda. The system is shown as the following figure:
 
