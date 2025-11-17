@@ -23,8 +23,9 @@ The choices of distributions are up to you. You are welcomed to try different di
 
 <img width="536" height="214" alt="image" src="https://github.com/user-attachments/assets/b8da1062-c220-4474-8d83-435dbd35ce7c"/>
 
-\
-## Open Queuing network simulation (8 pt)
+
+
+## Open Queuing network simulation (8 pt)
 The second part of the project is to make an open-queuing network simulator, where the jobs arrive from the outside following Poisson processes with the rate of lambda. The system is shown as the following figure:
 
 Each job needs to go to the CPU, following an exponential distribution with a mean of 10 jobs per second, and then proceeds by either one of the disks. There are two disks, each of which has an exponentially-distributed processing time. The fast disk has a processing rate of 12 jobs per second and the slow disk has the rate of 9 jobs per second. The number of buffer spaces in each queue is infinite.
