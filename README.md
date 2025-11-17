@@ -12,7 +12,7 @@ Build a simulator to capture the following system and answer the questions below
 
 The choices of distributions are up to you. You are welcomed to try different distributions to answer the following questions and assess the impact of different variants.
 
-<img width="380" height="267" alt="image" src="https://github.com/user-attachments/assets/73f26326-7a51-4a0e-aac6-53f113737c31" />
+<img width="380" height="267" alt="image" src="https://github.com/user-attachments/assets/73f26326-7a51-4a0e-aac6-53f113737c31"/>
 
 ### Questions:
 (3p) What will be the maximal system throughput in terms of number of jobs, given two different load balancing strategies for sending jobs between the fast and slow disk? You need to come up with two load balancing strategies and compare them. 
@@ -23,16 +23,17 @@ The choices of distributions are up to you. You are welcomed to try different di
 
 <img width="536" height="214" alt="image" src="https://github.com/user-attachments/assets/b8da1062-c220-4474-8d83-435dbd35ce7c"/>
 
+
 ## Open Queuing network simulation (8 pt)
 The second part of the project is to make an open-queuing network simulator, where the jobs arrive from the outside following Poisson processes with the rate of lambda. The system is shown as the following figure:
 
 Each job needs to go to the CPU, following an exponential distribution with a mean of 10 jobs per second, and then proceeds by either one of the disks. There are two disks, each of which has an exponentially-distributed processing time. The fast disk has a processing rate of 12 jobs per second and the slow disk has the rate of 9 jobs per second. The number of buffer spaces in each queue is infinite.
 
-<img width="364" height="214" alt="image" src="https://github.com/user-attachments/assets/e5b8dbf6-cbca-4b9a-bcc4-9d0d3709d6d2" />
+<img width="364" height="214" alt="image" src="https://github.com/user-attachments/assets/e5b8dbf6-cbca-4b9a-bcc4-9d0d3709d6d2"/>
 
 ### Questions:
 (4pt) Use your simulator to find the maximum sustainable throughput of such a system in terms of number of jobs. Support your answer with simulation results.
 (4pt) Find out the average response times for following cases over three arrival rates of your choice: case (i) - a single queue in front of fast and slow disk; case (ii) - a separate queue for each disk, jointly applying the shortest queue load balancing strategy when sending the jobs from the CPU to disk.
 
-<img width="402" height="153" alt="image" src="https://github.com/user-attachments/assets/f94a3873-db1d-4283-94b2-c158df84595d" />
+<img width="402" height="153" alt="image" src="https://github.com/user-attachments/assets/f94a3873-db1d-4283-94b2-c158df84595d"/>
 
